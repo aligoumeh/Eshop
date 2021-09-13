@@ -1,0 +1,22 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aligoumeh/Eshop.git"
+  },
+  "author": "AliG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aligoumeh/Eshop/issues"
+  },
+  "homepage": "https://github.com/aligoumeh/Eshop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
