@@ -24,7 +24,7 @@ const userSchema = mongoose.Schema({
         require: true,
         default: false
     }
-}{
+},{
     timestamps: true
 })
 
