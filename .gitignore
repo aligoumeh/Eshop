@@ -9,6 +9,9 @@ node_modules/
 # testing
 /coverage
 
+# local DB
+/Eshop/db
+
 # production
 /build
 
