@@ -1,9 +1,8 @@
 import express from 'express'
 import dotenv from 'dotenv'
-import {notFound , errorHandler} from './middleware/errorMiddleware.js'
-import connectDB from './config/database.js' 
+import {notFound, errorHandler} from './middleware/errorMiddleware.js'
+import connectDB from './config/database.js'
 import productRouts from './routs/productRouts.js'
-
 
 dotenv.config()
 
@@ -11,8 +10,7 @@ connectDB()
 
 const app = express()
 
-
-app.get('/' , (req , res) => {
+app.get('/', (req, res) => {
     res.send('API is running...')
 })
 
